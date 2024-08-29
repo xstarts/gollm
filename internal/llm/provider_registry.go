@@ -19,13 +19,15 @@ func NewProviderRegistry(providerNames ...string) *ProviderRegistry {
 
 	// Register all known providers
 	knownProviders := map[string]ProviderConstructor{
-		"openai":    NewOpenAIProvider,
-		"anthropic": NewAnthropicProvider,
-		"groq":      NewGroqProvider,
-		"ollama":    NewOllamaProvider,
-		"mistral":   NewMistralProvider,
-		"zhipu":     NewZhiPuProvider,
-		"tongyi":    NewTongYiProvider,
+		"openai":     NewOpenAIProvider,
+		"anthropic":  NewAnthropicProvider,
+		"groq":       NewGroqProvider,
+		"ollama":     NewOllamaProvider,
+		"mistral":    NewMistralProvider,
+		"zhipu":      NewZhiPuProvider,
+		"zhipu_view": NewZhiPuViewProvider,
+		"tongyi":     NewTongYiProvider,
+
 		// Add other providers here as they are implemented
 	}
 
