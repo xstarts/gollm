@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/invopop/jsonschema"
-	"github.com/teilomillet/gollm/internal/llm"
+	"gollm/internal/llm"
 )
 
 // Prompt represents a structured prompt for an LLM
@@ -143,4 +143,3 @@ func (p *Prompt) String() string {
 
 	return builder.String()
 }
-

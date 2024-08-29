@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/teilomillet/gollm"
+	"gollm"
 )
 
 func main() {
@@ -190,4 +190,3 @@ func main() {
 
 	fmt.Println("\nExample completed.")
 }
-

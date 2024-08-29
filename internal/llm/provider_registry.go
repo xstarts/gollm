@@ -24,6 +24,8 @@ func NewProviderRegistry(providerNames ...string) *ProviderRegistry {
 		"groq":      NewGroqProvider,
 		"ollama":    NewOllamaProvider,
 		"mistral":   NewMistralProvider,
+		"zhipu":     NewZhiPuProvider,
+		"tongyi":    NewTongYiProvider,
 		// Add other providers here as they are implemented
 	}
 

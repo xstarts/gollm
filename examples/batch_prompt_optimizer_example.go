@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/teilomillet/gollm"
+	"gollm"
 )
 
 func main() {

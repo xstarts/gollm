@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/teilomillet/gollm/internal/llm"
+	"gollm/internal/llm"
 )
 
 // LLM is the interface that wraps the basic LLM operations

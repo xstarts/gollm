@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/teilomillet/gollm"
+	"gollm"
 )
 
 func main() {

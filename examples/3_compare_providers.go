@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/teilomillet/gollm"
+	"gollm"
 )
 
 func main() {

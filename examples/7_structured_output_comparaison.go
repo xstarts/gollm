@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/teilomillet/gollm"
+	"gollm"
 	"log"
 	"os"
 	"strings"

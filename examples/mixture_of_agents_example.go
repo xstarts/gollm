@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/teilomillet/gollm"
+	"gollm"
 )
 
 func main() {
@@ -34,8 +34,8 @@ func main() {
 				gollm.SetMaxTokens(1024),
 			},
 		},
-		MaxParallel:  2,                 // Process up to 2 agents in parallel
-		AgentTimeout: 30 * time.Second,  // Set a 30-second timeout for each agent
+		MaxParallel:  2,                // Process up to 2 agents in parallel
+		AgentTimeout: 30 * time.Second, // Set a 30-second timeout for each agent
 	}
 
 	// Configure the aggregator

@@ -1,7 +1,7 @@
 package gollm
 
 import (
-	"github.com/teilomillet/gollm/internal/llm"
+	"gollm/internal/llm"
 )
 
 // Validate checks if the given struct is valid according to its validation rules

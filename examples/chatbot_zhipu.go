@@ -21,11 +21,12 @@ func main() {
 
 	// Create a new LLM instance with memory
 	llm, err := gollm.NewLLM(
-		gollm.SetProvider("openai"),
-		gollm.SetModel("gpt-4o-mini"),
+		gollm.SetProvider("zhipu"),
+		gollm.SetModel("glm-4"),
 		gollm.SetAPIKey(apiKey),
+		gollm.SetMaxTokens(200),
 		gollm.SetMemory(4000), // Enable memory with a 4000 token limit
-		gollm.SetDebugLevel(gollm.LogLevelInfo),
+		gollm.SetDebugLevel(gollm.LogLevelDebug),
 	)
 	if err != nil {
 		log.Fatalf("Failed to create LLM: %v", err)

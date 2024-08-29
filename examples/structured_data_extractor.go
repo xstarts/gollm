@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/teilomillet/gollm"
+	"gollm"
 )
 
 // MovieReview without validation tags
@@ -176,4 +176,3 @@ func printReview(review interface{}) {
 		}
 	}
 }
-

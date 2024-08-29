@@ -3,9 +3,8 @@
 package gollm
 
 import (
+	"gollm/internal/llm"
 	"time"
-
-	"github.com/teilomillet/gollm/internal/llm"
 )
 
 // LogLevel represents the level of logging

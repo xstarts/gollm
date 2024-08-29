@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/teilomillet/gollm"
+	"gollm"
 )
 
 type PersonInfo struct {

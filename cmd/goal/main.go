@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/teilomillet/gollm"
+	"gollm"
 )
 
 func main() {
