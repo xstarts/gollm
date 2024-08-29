@@ -1,4 +1,4 @@
-module gollm
+module github.com/xstarts/gollm
 
 go 1.22.5
 
