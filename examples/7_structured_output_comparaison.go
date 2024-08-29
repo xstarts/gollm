@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"gollm"
+	"github.com/xstarts/gollm"
 	"log"
 	"os"
 	"strings"

@@ -6,7 +6,7 @@ import (
 	"bufio"
 	"context"
 	"fmt"
-	"gollm"
+	"github.com/xstarts/gollm"
 	"log"
 	"os"
 	"strings"

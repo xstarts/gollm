@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"gollm"
+	"github.com/xstarts/gollm"
 )
 
 func main() {

@@ -1,7 +1,7 @@
 package gollm
 
 import (
-	"gollm/internal/llm"
+	"github.com/xstarts/gollm/internal/llm"
 )
 
 // Validate checks if the given struct is valid according to its validation rules

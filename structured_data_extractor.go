@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"gollm/internal/llm"
+	"github.com/xstarts/gollm/internal/llm"
 )
 
 // ExtractStructuredData extracts structured data from text based on a given struct type

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"gollm"
+	"github.com/xstarts/gollm"
 )
 
 func main() {

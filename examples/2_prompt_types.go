@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"gollm"
+	"github.com/xstarts/gollm"
 )
 
 func main() {

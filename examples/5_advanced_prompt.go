@@ -10,7 +10,7 @@ import (
 	"os"
 	"time"
 
-	"gollm"
+	"github.com/xstarts/gollm"
 )
 
 // AnalysisResult represents the structured output of our analysis

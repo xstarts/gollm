@@ -3,7 +3,7 @@
 package gollm
 
 import (
-	"gollm/internal/llm"
+	"github.com/xstarts/gollm/internal/llm"
 	"time"
 )
 

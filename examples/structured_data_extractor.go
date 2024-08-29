@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"gollm"
+	"github.com/xstarts/gollm"
 )
 
 // MovieReview without validation tags

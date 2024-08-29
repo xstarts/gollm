@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"gollm/internal/llm"
+	"github.com/xstarts/gollm/internal/llm"
 )
 
 // LLM is the interface that wraps the basic LLM operations
